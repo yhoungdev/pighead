@@ -1,7 +1,10 @@
 package utils
 
-import "os/exec"
+import (
+	"fmt"
+)
 
 func OpenBrowser(url string) error {
-	url, error := exec.LookPath("xdg-open")
+	fmt.Println("Opening", url)
+	return nil
 }
