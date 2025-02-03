@@ -1,12 +1,50 @@
-<!DOCTYPE>
-<html>
-   <head>
-       <title>Pighead SSH session 🐷</title>
-   </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pighead SSH Sessions 🐷</title>
+    <link rel="stylesheet" href="./style/index.css">
 
-  <body>
-    <h1>SSH Sessions 💻</h1>
+</head>
+<body>
 
-    <p>Loading....</p>
-  </body>
+<h1> Pighead SSH Sessions 🐷</h1>
+
+<p class="loading">Loading SSH Sessions...</p>
+
+<div class="ssh-container">
+    <table>
+        <thead>
+        <tr>
+            <th>Session ID</th>
+            <th>User</th>
+            <th>IP Address</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="session-id">#S1234</td>
+            <td>root</td>
+            <td>192.168.1.10</td>
+            <td class="status-active">🟢 Active</td>
+        </tr>
+        <tr>
+            <td class="session-id">#S1233</td>
+            <td>admin</td>
+            <td>192.168.1.22</td>
+            <td class="status-disconnected">🔴 Disconnected</td>
+        </tr>
+        <tr>
+            <td class="session-id">#S1232</td>
+            <td>devuser</td>
+            <td>192.168.1.35</td>
+            <td class="status-active">🟢 Active</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
 </html>

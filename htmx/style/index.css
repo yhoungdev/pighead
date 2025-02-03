@@ -1,0 +1,61 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #121212;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ff00;
+    margin-bottom: 10px;
+}
+
+p.loading {
+    font-size: 18px;
+    color: #ffcc00;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0.5; }
+}
+
+.ssh-container {
+    width: 80%;
+    margin: 20px auto;
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #00ff00;
+    color: black;
+}
+
+.status-active {
+    color: #00ff00;
+}
+
+.status-disconnected {
+    color: #ff4444;
+}
+
+.session-id {
+    color: #ffcc00;
+}
